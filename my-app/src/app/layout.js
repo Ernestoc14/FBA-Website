@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       {/* <body className={inter.className}>{children}</body> */}
       <body className="bg-slate-900 text-white">{children}</body>
-      <HomePage />
+      {/* <HomePage /> */}
     </html>
   );
 }
