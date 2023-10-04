@@ -3,7 +3,7 @@ import CustomButton from "./CustomButton"
 
 function Card({ prices }) {
   return (
-    <div className="grid justify-center items-center sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-2 bg-yellow-50 text-black">
+    <div className="grid justify-center items-center md:grid-cols-2 lg:grid-cols-4 gap-x-2 bg-yellow-50 text-black">
       {prices.map(price => (
         <div key={price.id} className=" mb-2 border-2 p-6">
           <h3>{price.product.name}</h3>
