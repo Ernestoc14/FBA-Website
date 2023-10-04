@@ -59,7 +59,7 @@
 }
 
 .hero__video-overlay {
-  @apply bg-cover -z-10 w-full xl:h-screen h-[590px] overflow-hidden;
+  @apply bg-cover -z-10 w-full overflow-hidden;
 }
 /* END: Hero styles */
 

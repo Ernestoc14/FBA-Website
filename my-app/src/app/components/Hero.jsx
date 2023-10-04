@@ -30,7 +30,7 @@ function Hero() {
       </div>
 
 
-      <div className="hero__video-overlay border border-green-700 min-w-full">
+      <div className="hero__video-overlay border border-green-700 min-w-full min-h-">
         <video autoPlay muted loop fill className="w-full">
           <source src="/bg-video-hero.mp4" type="video/mp4" />
         </video>
