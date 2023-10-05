@@ -16,7 +16,7 @@ async function ProductSection() {
   const prices = await loadPrices()
   return (
     <section>
-      <div className="flex justify-center items-center h-screen bg-slate-500 text-white">
+      <div className="flex justify-center items-center h-screen bg-white text-black">
         <div>
           <header>
             <h1 className="my-5 text-center text-black font-extrabold">Our Products</h1>
