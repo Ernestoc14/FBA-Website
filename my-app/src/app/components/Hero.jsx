@@ -1,5 +1,5 @@
-import React from 'react'
-import Image from "next/image"
+import React from "react";
+import Image from "next/image";
 
 function Hero() {
   return (
@@ -24,19 +24,18 @@ function Hero() {
             In the Market!
           </h1>
           <p className="text-white mt-10">
-            Streamline your car rental experience with our efforless booking process.
+            Streamline your car rental experience with our efforless booking
+            process.
           </p>
         </div>
       </div>
-
-
-      <div className="hero__video-overlay border border-green-700 min-w-full min-h-">
-        <video autoPlay muted loop fill className="w-full">
-          <source src="/bg-video-hero.mp4" type="video/mp4" />
-        </video>
+      <div className="w-full mt-10 bg-slate-500">
+        <h1 className=" text-blue-500 text-3xl font-bold">
+          Fondo De Color
+        </h1>
       </div>
     </div>
-  )
+  );
 }
 
-export default Hero
+export default Hero;
